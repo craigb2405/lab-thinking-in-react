@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.productTable {
+  display: flex;
+  justify-content: center;
+}
+
+.productTable table {
+  width: 600px;
+  border-collapse: collapse;
+  
+}
+
+.productTable thead {
+  font-weight: 700;
+  background-color: #95e5fc;
+ 
+}
+
+.productTable thead td {
+  padding: 20px;
+}
+
+.productTable td {
+  border-bottom: solid 1px #828385;
+  padding: 10px;
+  
+}
+
+.inStock {
+  
+}
+
+.outOfStock {
+  color: red
+}
+
+
+
