@@ -1,6 +1,5 @@
 function Search (props) {
     
-    
     return(
       
         <div className="productTable">
